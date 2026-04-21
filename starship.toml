@@ -1,17 +1,17 @@
 format = """
 [░▒▓](#c4d2a3)\
 [ 󰐿 ](bg:#c4d2a3 fg:#0b0c09)\
-[](bg:#cdf076 fg:#c4d2a3)\
+[](bg:#cdf076 fg:#c4d2a3)\
 $directory\
-[](fg:#cdf076 bg:#566039)\
+[](fg:#cdf076 bg:#566039)\
 $git_branch\
 $git_status\
-[](fg:#566039 bg:#2f3621)\
+[](fg:#566039 bg:#2f3621)\
 $nodejs\
 $rust\
 $golang\
 $php\
-[](fg:#2f3621 bg:#29301d)\
+[](fg:#2f3621 bg:#29301d)\
 $time\
 [ ](fg:#29301d)\
 \n$character"""
@@ -77,4 +77,3 @@ disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#29301d"
 format = '[[  $time ](fg:#bacba0 bg:#29301d)]($style)'
-
